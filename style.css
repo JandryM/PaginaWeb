@@ -1,0 +1,87 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: darkgray;
+}
+.imagen{
+    border-radius: 50%;
+    border: 1px solid #000000;
+    height: 300px;
+    margin-top: 30px;
+    width: 300px;
+}
+header{
+    background-color: darkslategrey;
+    color: aliceblue;
+    padding: 3rem 2rem;
+}
+header h1{
+    color: steelblue;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contenedor{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+div article{
+    background-color: mintcream;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+table{
+    margin: 0.4%;
+    font-size: smaller;
+    width: 99%;
+    border-collapse: collapse;
+}
+th,td{
+    border: solid 1px #000000;
+    padding: 1px;
+}
+th{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
+tr:hover{
+    background-color: #aaa;
+}
+
+h2{
+    color: indigo;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+li{
+    padding-left: 0%;
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: aliceblue;
+}
+footer div{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #ffff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: blue;
+}
